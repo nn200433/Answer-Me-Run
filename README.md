@@ -55,7 +55,14 @@
      * 《LeetCode 题解》：1000 篇高质量的 LeetCode 的算法题解。
      * 《数据密集型应用系统设计》： DDIA 是一本神书，我用原文 1/5 的内容将其总结完毕了。
      * 《求职内推 offer 瑜伽》：经过我验证过的互联网、外企等各大公司的可靠内推信息汇总。
-17. [OI Wiki](https://oi-wiki.org/)
+17. [leetcode](https://doocs.github.io/leetcode/#/)
+
+     本项目包含 LeetCode、《剑指 Offer（第 2 版）》、《剑指 Offer（专项突击版）》、《程序员面试金典（第 6 版）》等题目的相关题解。
+
+     所有题解均由多种编程语言实现，包括但不限于：Java、Python、C++、Go、TypeScript、Rust，日常更新。
+
+     欢迎 Star 🌟 关注[本项目](https://github.com/doocs/leetcode)，获取项目最新动态。
+18. [OI Wiki](https://oi-wiki.org/)
 
      OI（Olympiad in Informatics，信息学奥林匹克竞赛）在中国起源于 1984 年，是五大高中学科竞赛之一。
 
@@ -64,70 +71,77 @@
      OI Wiki 致力于成为一个免费开放且持续更新的 编程竞赛（competitive programming） 知识整合站点，大家可以在这里获取与竞赛相关的、有趣又实用的知识。我们为大家准备了竞赛中的基础知识、常见题型、解题思路以及常用工具等内容，帮助大家更快速深入地学习编程竞赛中涉及到的知识。
 
      本项目受 CTF Wiki 的启发，在编写过程中参考了诸多资料，在此一并致谢。
-18. [labuladong 的算法小抄](https://labuladong.github.io/algo/)
+19. [labuladong 的算法小抄](https://labuladong.github.io/algo/)
 
      labuladong 的刷题全家桶 由学习网站、《算法秘籍》、《刷题笔记》两本 PDF，以及 Chrome、vscode、Jetbrain 三个不同平台的刷题插件组成，致力于为大家提供最丝滑的刷题体验，帮助大家高效学习算法。
-19. [pedrovgs/Algorithms](https://github.com/pedrovgs/Algorithms)
+20. [pedrovgs/Algorithms](https://github.com/pedrovgs/Algorithms)
 
      用 Java 编写的一些常见算法问题的解决方案。
-20. [正则表达式 30 分钟入门教程](https://deerchao.cn/tutorials/regex/regex.htm)
+21. [正则表达式 30 分钟入门教程](https://deerchao.cn/tutorials/regex/regex.htm)
 
      30 分钟内让你明白正则表达式是什么，并对它有一些基本的了解，让你可以在自己的程序或网页里使用它。
-21. [揭开正则表达式的神秘面纱](http://www.regexlab.com/zh/regref.htm)
+22. [揭开正则表达式的神秘面纱](http://www.regexlab.com/zh/regref.htm)
 
      这个大佬还有一个超轻量且强大的 [正则表达式工具 Match Tracer](http://www.regexlab.com/zh/mtracer/)
-22. [warriorjs](https://warriorjs.com/)
+23. [warriorjs](https://warriorjs.com/)
 
      一个有趣的 JavaScript 编程 RPG 游戏（可离线编译 [olistic/warriorjs](https://github.com/olistic/warriorjs) ）。在游戏中，您是一名战士，通过 JavaScript 语法指挥战士与敌人战斗、营救俘虏，一步步走向塔顶，获得传说中的 JavaScript 之剑。但这个过程并不容易，无论您是编程新手还是 JavaScript 专家，游戏都会考验您的编程技能。
-23. [LearnGitBranching](https://github.com/pcottle/learnGitBranching)
+24. [LearnGitBranching](https://github.com/pcottle/learnGitBranching)
 
      LearnGitBranching 是一个 git 存储库交互可视化闯关教程，这款工具可以助力学习 git 操作。
 
      LearnGitBranching 闯关游戏[点此前往](https://learngitbranching.js.org/?locale=zh_CN)
-24. [猴子都能懂的 Git 入门](https://backlog.com/git-tutorial/cn/contents/)
+25. [猴子都能懂的 Git 入门](https://backlog.com/git-tutorial/cn/contents/)
 
      让我们学习以下怎样使用版本管理系统吧。
-25. [Git 的奇技淫巧](https://github.com/521xueweihan/git-tips)
+26. [Git 的奇技淫巧](https://github.com/521xueweihan/git-tips)
 
      Git 是一个分布式版本管理工具，版本管理工具就是大家在写东西的时候都用过 回撤这个功能，但是回撤只能回撤几步，假如想要找回我三天之前的修改，光用回撤是找不回来的。而版本管理工具能记录每次的修改，只要提交到版本仓库，就可以找到之前任何时刻的状态（文本状态）。
 
      下面的内容就是列举了常用的 Git 命令和一些小技巧，可以通过页面内查找的方式 Ctrl/Command+f 进行快速查找。
-26. [Linux 教程](https://github.com/dunwu/linux-tutorial)
+27. [Linux 教程](https://github.com/dunwu/linux-tutorial)
 
      🐧 Linux 教程，主要内容：Linux 命令、Linux 系统运维、软件运维、精选常用 Shell 脚本
-27. [如何确保 Linux 服务器安全](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
+28. [如何确保 Linux 服务器安全](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
 
      这是一份不断改进的保护 Linux 服务器的操作指南，希望它还能教会您一些有关安全性及其重要性的知识。
-28. [dockerlabs](https://dockerlabs.collabnix.com/)
+29. [dockerlabs](https://dockerlabs.collabnix.com/)
 
      该教程的内容分为初、中、高三个级别，适合所有阶段的 Docker。内含 500 个动手实验，以及 Docker 和 Docker Compose 小抄，这一切全部开源且分文不取。
-29. [k8s 教程](https://github.com/guangzhengli/k8s-tutorials)
+30. [k8s 教程](https://github.com/guangzhengli/k8s-tutorials)
 
      在学习本教程前，需要注意本教程侧重于实战引导，以渐进式修改代码的方式，将从最基础的 container 容器的定义开始，经过 pod、 deployment、 service、 ingress、 configmap、 secret 等资源直到用 helm 来打包部署一套完整服务。所以如果你对容器和 k8s 的基础理论知识不甚了解的话，建议先从 官网文档 或者其它教程获取基础理论知识，再通过实战加深对知识的掌握！
-30. [k8s_PaaS](https://github.com/ben1234560/k8s_PaaS)
+31. [k8s_PaaS](https://github.com/ben1234560/k8s_PaaS)
 
      如何基于 K8s(Kubernetes)部署成 PaaS/DevOps(一套完整的软件研发和部署平台)--教程/学习(实战代码/欢迎讨论/大量注释/操作配图)，你将习得部署如：K8S(Kubernetes)、Dashboard、Harbor、Jenkins、本地 Gitlab、Apollo 框架、Promtheus、Grafana、Spinnaker 等。
-31. [图解计算机基础](https://xiaolincoding.com/)
+32. [图解计算机基础](https://xiaolincoding.com/)
 
      图解计算机网络、操作系统、计算机组成、数据库，让天下没有难懂的八股文！
-32. [凤凰架构](https://icyfenix.cn/)
+33. [凤凰架构](https://icyfenix.cn/)
 
      这是一部以“如何构建一套可靠的分布式大型软件系统”为叙事主线的开源文档，是一幅帮助开发人员整理现代软件架构各条分支中繁多知识点的技能地图。文章《什么是“凤凰架构”》详细阐述了这部文档的主旨、目标与名字的来由，文章《如何开始》简述了文档每章讨论的主要话题与内容详略分布，供阅前参考。
-33. [深入架构原理与实践](https://www.thebyte.com.cn/)
+34. [深入架构原理与实践](https://www.thebyte.com.cn/)
 
-     这几年互联网技术出现了很大的更新迭代，比如 SDN 网络、高性能网络（DPDK、XDP）、Container、ServiceMesh 等等，我对这些技术有一些浅薄的见解和实践，但也远没达到深刻理解的境界，我尝试使用 `费曼学习法`​​​​​ 把这些东西体系化地总结输出。一方面是加深自我的学习认识，另一方面也希望这些输出对其他人有所帮助。  
-     整个系列的内容主要集中在 `网络`​​​​​、`集群以及服务治理`​​​​​、`FinOps`​​​​​ 这三个主题，这也代表着基础架构的几个核心：稳定、效率、成本。  
+     这几年互联网技术出现了很大的更新迭代，比如 SDN 网络、高性能网络（DPDK、XDP）、Container、ServiceMesh 等等，我对这些技术有一些浅薄的见解和实践，但也远没达到深刻理解的境界，我尝试使用 `费曼学习法`​​​​​​ 把这些东西体系化地总结输出。一方面是加深自我的学习认识，另一方面也希望这些输出对其他人有所帮助。  
+     整个系列的内容主要集中在 `网络`​​​​​​、`集群以及服务治理`​​​​​​、`FinOps`​​​​​​ 这三个主题，这也代表着基础架构的几个核心：稳定、效率、成本。  
      我会持续更新这个仓库的内容，如果想要关注可以点 [star](https://github.com/isno/theByteBook) 。
-34. [iBooker 团队知识库](https://github.com/apachecn/team-wiki)
+35. [iBooker 团队知识库](https://github.com/apachecn/team-wiki)
 
      承认吧，我们是弱者，正因为生来什么都没有，因此我们能拥有一切，以身为弱者而骄傲吧！——《游戏人生》
 
      各种类型书籍在线阅读
-35. [web全栈体系](https://hejialianghe.github.io/)
+36. [web全栈体系](https://hejialianghe.github.io/)
 
      [Senior-FrontEnd](https://github.com/hejialianghe/Senior-FrontEnd) 高级开发工程师必备，打通全栈任督二脉。文章包含：了解高阶函数、Underscore源码分析、EventLoop、异步编程、设计模式、了解网络协议、网络请求、Axios源码分析、网络安全、模块加载、路由调度、高可用组件设计、Composition API RFC、VUE3.0、vue2.0源码、......
-36. [推荐一个 GitHub 的开源电子书仓库，值得收藏](https://xie.infoq.cn/article/207aab244ae44b9fc5c71a059)
-37. [大全_书 + 题（网盘链接）](https://pan.baidu.com/s/1-YYwkJX4jpT7ow7ffxYDvg?pwd=m5xf)
+37. [Deep Learning System &amp; AI System](https://chenzomi12.github.io/)
+
+     这个开源项目英文名字叫做 [Deep Learning System](https://github.com/chenzomi12/DeepLearningSystem) 或者 [AI System(AISys)](https://github.com/chenzomi12/DeepLearningSystem)，中文名字叫做 深度学习系统 或者 AI系统。
+
+     本开源项目主要是跟大家一起探讨和学习人工智能、深度学习的系统设计，而整个系统是围绕着 ZOMI 在工作当中所积累、梳理、构建 AI 系统全栈的内容。
+
+     希望跟所有关注 AI 开源项目的好朋友一起探讨研究，共同促进学习讨论。
+38. [推荐一个 GitHub 的开源电子书仓库，值得收藏](https://xie.infoq.cn/article/207aab244ae44b9fc5c71a059)
+39. [大全_书 + 题（网盘链接）](https://pan.baidu.com/s/1-YYwkJX4jpT7ow7ffxYDvg?pwd=m5xf)
 
      ```
      面试
