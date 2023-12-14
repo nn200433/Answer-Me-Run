@@ -40,3 +40,4 @@
 | Ip2region | ip2region - 是一个离线IP地址定位库和IP定位数据管理框架，10 微秒级别的查询效率，提供了众多主流编程语言的 xdb 数据生成和查询客户端实现。 | [GitHub](https://github.com/lionsoul2014/ip2region) |
 | bboss-elasticsearch | 功能丰富，涵盖Elasticsearch所有功能，自动索引托管，多种分页机制，傻瓜级CRUD，脚本，sql，jdbc，高亮，权重，聚合，IP，GEO地理位置，父子嵌套，应有尽有。（还有 ETL 模块） | [官网](https://esdoc.bbossgroups.com/#/) \| [GitHub](https://github.com/bbossgroups/mongodb-elasticsearch) |
 | EasyCaptcha | Java图形验证码，支持 gif、中文、算术等类型，可用于Java Web、JavaSE等项目。 | [GitHub](https://gitee.com/ele-admin/EasyCaptcha) |
+| langchain4j | LangChain for Java：利用 LLM 的强大功能增强您的 Java 程序 | [GitHub](https://github.com/langchain4j/langchain4j) |
