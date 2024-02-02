@@ -1,7 +1,7 @@
 ## 插件整理
 
 |插件名|功能说明|
-| ------------------------------------| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --------------------------------------| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |🔥 Show Comment|在结构树显示 文档注释；在行末尾显示 文档注释；支持 "xx 类全名或简名.json" 文档注释与跳转到字段；支持 从配置文件获取外部注释用于文件夹、资源、COBOL 等<br />|
 |🔥 .ignore|Git 提交忽略一些文件|
 |Alibaba Cloud Toolkit|阿里云工具包是 Eclipse 或 IntelliJ IDEA 等 IDE 的插件。帮助开发人员更高效地开发、编码、测试、诊断和部署适合云操作的应用程序。|
@@ -32,11 +32,13 @@
 |MetricsReloaded|分析代码复杂度的插件|
 |Momo Code Sec Inspector（Java）|Java 静态代码安全审计插件。具有一键修复功能的静态代码检查器。|
 |🔥 MyBatisCodeHelperPro（¥99/3 年）|Intellij 下 Mybatis 支持插件，功能强大（[详细介绍](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#/)）。不想付费那就用 [MyBatisX](https://plugins.jetbrains.com/plugin/10119-mybatisx)|
-|🔥 Rainbow Brackets（$15/年）|彩虹括号，高亮括号对。（特别提醒：就算买了正版，IDEA 用了 `ja-netfilter` ，也是用不了的！！！）|
+|🔥 Rainbow Brackets（$15/年）|彩虹括号，高亮括号对。付费不存在的！|
 |🔥 HighlightBracketPair|该插件可以在 IntelliJ 的编辑器中对括号对进行颜色突出显示。|
 |🔥 Restful Fast Request（$10/年）|Restful Fast Request 是一个强大的 restful api 工具包插件（http 客户端），帮助您通过 exist 方法快速生成 url 和 params。<br />插件= API 调试工具 + API 管理器工具。<br />|
-|🔥 RestfulTool|一套 Restful 服务开发的辅助工具（主要用来查找接口代码）|
-|RequestTool|一个 Http 请求工具，您可以根据请求结果构建自己的文档，支持文档导出。（与 Restful Fast Request 相比，个人觉得能达到近 2/3 吧）<br />|
+|RestfulToolkitX|RestfulToolkitX 是运行在Intellij IDEA 之上的一个非常棒的 RESTful 开发工具包。（主要用来搜索接口）|
+|🔥 Apipost-Helper|Apipost 一个类似于 Postman 的 IntelliJ IDEA 插件，可以帮助开发人员高效地调试 Api 并一键生成文档；Apipost \= Restfultool + Yapidoc + Swaggertool；|
+|RequestTool|[RequestTool](https://licheng1013.github.io/plugins/request-tool.html) 一个 Http 请求工具，您可以根据请求结果构建自己的文档，支持文档导出。（与 Restful Fast Request 相比，个人觉得能达到近 2/3 吧）<br />|
+|Save Actions|支持可配置的、类似 Eclipse 的保存操作，包括“优化导入”、“重新格式化代码”、“重新排列代码”、“编译文件”以及一些针对 Java 的快速修复，<br />如“添加/删除 'this' 限定符”等。当文件在磁盘上同步（或保存）时执行配置的操作。<br />请注意，自 `IntelliJ 2021.2`​ 以来，有一个内置的 `Tools > Actions on Save`​ 设置菜单，允许您执行许多标准操作，例如重新格式化或优化导入。若您还想使用本插件可参考下方详细使用介绍。<br />|
 |🔥SmartInput|自动切换输入法。对于母语为中文的开发者，写代码过程中经常需要在中/英输入法之间进行切换，而且由于不清楚当前处于哪种输入状态，有时输入到一半发现输入法错了，删除后重新输入，严重影响了编码效率。<br />其实，在哪种情况需要使用哪种输入法是可以明确的，既然这样就可以让 IDE 帮助我们自动切换输入法。|
 |Spring Boot Assistant|该插件为 Spring Boot 配置文件（application.yml 等）添加了自动完成支持。|
 |Statistic|显示项目统计信息。此插件显示按扩展名排序的文件以及大小、行数 LOC 等。用户可以使用“选择时刷新”按钮选择（项目/模块/包/文件）范围。|
@@ -47,6 +49,280 @@
 |Private Notes|你还在为项目中不敢添加 "敏感注释"！源码是只读文件不能添加注释而烦恼吗？<br />用这款插件就好了，注释仅自己可见。数据都缓存当前用户目录下的 .privateNotes 文件夹中，如需同步，可以借助强大的 Git。|
 |GenerateSerialVersionUID|在生成菜单 (alt + ins) 中添加新操作“SerialVersionUID”。该操作在当前类中添加一个 serialVersionUID 字段或更新它（如果它已经存在），并为其分配标准“serialver”JDK 工具将返回的相同值。<br />IDEA 自带生成方式见 [【开发工具】IDEA 生成序列号 serialVersionUID 快捷键](https://blog.csdn.net/u011397981/article/details/119743032)|
 |JDK VisualGC（$9/年）|用于本地或远程运行 Hotspot JVM 的实时可视化垃圾收集监控工具，支持 G1 和 ZGC|
+
+### Save Actions（格式化代码插件）
+
+可以帮忙我们优化包导入，自动给没有修改的变量添加 final 修饰符，调用方法的时候自动添加 this 关键字等，使我们的代码更规范统一。
+
+注意！！！该插件在 `2023.1`​ 版本下使用有 Bug ！！！
+
+#### 我的设置
+
+​![image](assets/image-20221129144256-l05ssw6.png)​
+
+​![image](assets/image-20221129144330-80k6hrw.png)​
+
+#### 设置详解
+
+##### General 基本设置
+
+* Activate save actions on save(before saving each file,performs the configured actions below)
+
+  保存时自动格式化（在文件保存时启用/禁用该插件。在保存每个文件之前，它将执行以下配置的动作）
+* Activate save actions on shortcut
+
+  使用快捷键保存时自动格式化
+
+  使用场景：收到一份格式很乱的文件，可以使用这个快捷键自动格式化
+* Activate save actions on batch(Code>Save Actions>Execute on multiple files)
+
+  保存时批量格式化
+
+  这个没用过，因为有的时候你的格式化设置和同事的不一样，一起格式化了会导致合并时候有冲突
+* No action if compile errors
+
+  如果有编译错误，则启用/禁用无动作。单独应用于每个文件
+
+##### Formatting Actions 格式化触发设置
+
+* Optimize imports
+
+  优化导入（没有用到的类自动删去 import，这个一般要勾选）
+* Reformat file
+
+  重新格式化文件（只要保存文件就会自动格式化）
+* Reformat only changed code (only if VCS configured)
+
+  仅重格式化已(仅在配置 VCS 的情况下)
+
+  只有在配置了 VCS 的情况下，才可以对更改的代码进行格式化。
+* Rerrange fields and methods(configured in “File>Setting>Editor>Code Style>(…)>Arragement”)
+
+  重新调整字段和方法的范围
+
+##### Build Actions build 设置
+
+* Compile file
+
+  编译文件
+
+  对修改后的文件进行编译。编译器可能也会编译其他文件。
+* Reload file
+
+  重新加载文件
+
+  在运行中的调试器中重新加载文件，意味着这些文件将首先被编译。编译器可能也会编译其他文件。
+* Execute action
+
+  执行动作
+
+  使用快速列表执行动作
+
+##### Java Inspection and Quick Fix 具体格式化设置
+
+* Add final modifier to field
+
+  给字段添加 `final`​ 修饰符
+
+  ```java
+  private int field = 0
+
+  // 变为
+
+  private final int field = 0
+  ```
+* Add final modifier to local variable or parameter
+
+  向局部变量或参数添加 `final`​ 修饰符
+
+  使用效果如下，所有的局部参数都添加了 `final`​ 修饰符
+
+  ```java
+  public void printStr(String str1, String str2, String str3) {
+      int variable = 0
+      System.out.println(str1 + str2 + str3);
+  }
+
+  // 变为
+
+  public void printStr(final String str1, final String str2, final String str3) {
+      final int variable = 0
+      System.out.println(str1 + str2 + str3);
+  }
+  ```
+* Add final modifier to local variable or parameter except if it is implicit
+
+  向非隐式的局部变量或参数添加 final 修饰符
+
+  局部变量 `int variable = 0`​ 变为 `final int variable = 0`​ ，但如果它是隐式的，就像在 try 中的资源 `try (Resource r = new Resource())`​
+
+  不太理解这个非隐式是什么意思
+* Add static modifier to methods
+
+  如果内容不引用实例字段，给方法添加 `static`​ 修饰符
+
+  ```java
+  private void testStatic(String str) {
+      System.out.println(str);
+  }
+
+  // 变为
+
+  private static void testStatic(String str) {
+      System.out.println(str);
+  }
+  ```
+* Add this to field access
+
+  字段的使用加上 `this`​
+* Add this to method access
+
+  方法使用加上 `this`​
+* Add class qualifier to static member access
+
+  静态成员访问添加类限定符
+
+  对类字段的访问 `FIELD = 0`​ 变为 `Class.FIELD`​ 对名为 Class 的类的访问。与“Add class qualifier to static member access outside declaring class only”互斥。
+* Add class qualifier to static member access outside declaring class only
+
+  声明类外的静态成员访问添加类限定符
+
+  对于一个名为 `class`​ 的类，对类字段 `FIELD = 0`​ 的访问变为 `Class.FIELD`​ ，但只有当静态成员在声明类之外时才会如此。与“Add class qualifier to static member access”互斥。
+* Add missing @Override annotations
+
+  如果方法覆盖了父类的一个方法，添加漏写的 `@Override`​ 注解
+
+  ```java
+  void method()
+
+  // 变为
+
+  @Override
+  void method()
+  ```
+* Add blocks to if/while/for statements
+
+  给 if/while/for 语句添加大括号
+
+  ```java
+  public String judgeIt(int a) throws Exception {
+      if (a == 3) return "yes";
+      throw new Exception();
+  }
+
+  // 变为
+
+  public String judgeIt(int a) throws Exception {
+      if (a == 3) {
+          return "yes";
+      }
+      throw new Exception();
+  }
+  ```
+* Add missing serialVersionUID field for Serializable classes
+
+  为 `Serializable`​ 类添加缺少的 `serialVersionUID`​ 字段
+
+  ```java
+  public class BasicEntity implements Serializable {
+
+      // 这是生成的
+      private static final long serialVersionUID = -1134102816751244744L;
+
+  }
+  ```
+* Remove blocks from if/while/for statements
+
+  给 if/while/for 语句移除大括号
+
+  ```java
+  public String judgeIt(int a) throws Exception {
+      if (a == 3) {
+          return "yes";
+      }
+      throw new Exception();
+  }
+
+  // 变为
+
+  public String judgeIt(int a) throws Exception {
+      if (a == 3) return "yes";
+      throw new Exception();
+  }
+  ```
+* Remove unnecessary this to field and method
+
+  给字段或者方法去掉不必要的 `this`​
+
+  ```java
+  this.field = 0
+
+  // 变为
+
+  field = 0
+  ```
+* Remove final from private method
+
+  私有方法去掉 `final`​ 关键字
+
+  ```java
+  private final String getStr(final String str) {
+      return str;
+  }
+
+  // 变为
+
+  private String getStr(final String str) {
+      return str;
+  }
+  ```
+* Remove unnecessary final to local variable or parameter
+
+  局部变量去掉 `final`​
+
+  ```java
+  int final variable = 0
+
+  // 变为
+
+  int variable=0
+  ```
+* Remove explicit generic type for diamond
+
+  删除显式泛型类型的尖括号
+
+  ```java
+  List<String> list = new ArrayList<String>()
+
+  // 变为
+
+  List<String> list = new ArrayList<>()
+  ```
+* Remove unused suppress warning annotation
+
+  如果注解 `@SuppressWarning`​ 未被使用，它将被删除
+* Remove unnecessary semicolon
+
+  删除不必要的分号
+
+  ```java
+  int variable = 0;;
+
+  // 变为
+
+  int variable = 0;
+  ```
+* Change visibility of field or method to lower access
+
+  更改字段或方法的可见性以降低访问权限。如果字段不在类外使用，将把 `public`​ 改为 `private`​ 。它也适用于方法。
+
+  ```java
+  public int field = 0
+
+  // 变为
+
+  private int field = 0
+  ```
 
 ## VM 参考配置
 
@@ -152,7 +428,7 @@
 
 主要功能截图如下：
 
-​![image](/工具软件/assets/image-20230515080351-wscxa8u.png)​
+​![image](assets/image-20230515080351-wscxa8u.png)​
 
 ## IDEA 的一些优化
 
@@ -164,21 +440,21 @@
 
 可以根据自己的代码习惯，自定义一些代码模板，帮助我们快速写代码。
 
-​​![image](/工具软件/assets/image-20230510112546-xwm1g55.png)​​
+​​![image](assets/image-20230510112546-xwm1g55.png)​​
 
 使用效果如图：
 
-​![image](/工具软件/assets/image-20230510112757-thckdz8.png)​
+​![image](assets/image-20230510112757-thckdz8.png)​
 
 ### 修改全局配置
 
 #### 优化导包配置
 
-​​![image](/工具软件/assets/image-20230510113929-ehlneuw.png)
+​​![image](assets/image-20230510113929-ehlneuw.png)
 
 打开设置，找到 File | Settings | Editor | Code Style | Java 界面的 imports 页签，导入数量设置为 `999`​，如下图，这样就会避免导包为 `*`​
 
-​![image](/工具软件/assets/image-20230906154942-nhmu9xm.png)​
+​![image](assets/image-20230906154942-nhmu9xm.png)​
 
 #### 解决注释只读模式
 
@@ -186,31 +462,31 @@
 
 去掉 `Render documentation comments`​ 勾选即可。
 
-​![image](/工具软件/assets/image-20230906153642-gbpzfux.png)​
+​![image](assets/image-20230906153642-gbpzfux.png)​
 
 ##### 方式二
 
 似乎只需要进行下方两步操作即可。
 
-​![image](/工具软件/assets/image-20230906155642-ldsgc9p.png)​
+​![image](assets/image-20230906155642-ldsgc9p.png)​
 
 其他说明（似乎上方执行后即可.....）：
 
-​![image](/工具软件/assets/image-20230906152024-21guwv7.png)​
+​![image](assets/image-20230906152024-21guwv7.png)​
 
 #### 取消 tab 页单行显示
 
-​​![image](/工具软件/assets/image-20230510114533-bh6f6x6.png)​​
+​​![image](assets/image-20230510114533-bh6f6x6.png)​​
 
 去掉勾选后，效果如下：
 
-​​![image](/工具软件/assets/image-20230510114541-dfipxzx.png)​​
+​​![image](assets/image-20230510114541-dfipxzx.png)​​
 
 #### 代码格式化风格
 
 举个例子：变量对齐
 
-​![image](/工具软件/assets/image-20230510123037-qilwd3a.png)
+​![image](assets/image-20230510123037-qilwd3a.png)
 
 我的配置（点击 Scheme 右边的小齿轮可以导入）：
 
@@ -261,43 +537,58 @@
 
 #### 双斜杠注释紧跟代码头
 
-​​![image](/工具软件/assets/image-20230510115652-mbvai8u.png)​​
+​​![image](assets/image-20230510115652-mbvai8u.png)​​
 
 去掉勾选后，效果如下：
 
-​![image](/工具软件/assets/image-20230510115845-a8636cl.png)​
+​![image](assets/image-20230510115845-a8636cl.png)​
 
 #### 取消匹配大小写
 
-​​![image](/工具软件/assets/image-20230510120130-2g24zhd.png)​​
+​​![image](assets/image-20230510120130-2g24zhd.png)​​
 
 去掉勾选后，效果如下：
 
-​![image](/工具软件/assets/image-20230510120250-2d6jgb3.png)​
+​![image](assets/image-20230510120250-2d6jgb3.png)​
 
 输入小写 `s`​，也能提示出 `String`​
 
 #### 创建文件时生成作者和时间信息
 
-​![image](/工具软件/assets/image-20230510120641-gbjkf8p.png)​
+​![image](assets/image-20230510120641-gbjkf8p.png)​
 
 #### 显示行号和方法分割线
 
-​​![image](/工具软件/assets/image-20230510121122-scq7gos.png)​​
+​​![image](assets/image-20230510121122-scq7gos.png)​​
 
 选中后效果如下：
 
-​![image](/工具软件/assets/image-20230510121209-vwob1ar.png)​
+​![image](assets/image-20230510121209-vwob1ar.png)​
 
 #### 代码保存后自动触发操作
 
-​![image](/工具软件/assets/image-20230510132936-sddr22j.png)
+​![image](assets/image-20230510132936-sddr22j.png)
 
 保存文件的一些配置
 
-​![image](/工具软件/assets/image-20230512145325-qh4ol50.png)​
+​![image](assets/image-20230512145325-qh4ol50.png)​
 
 可参考 [Rearrange code 官方教程](https://www.jetbrains.com/help/idea/rearrange-code.html)
+
+#### 忽略文件和文件夹
+
+IntelliJ IDEA 还维护着一个文件和文件夹列表，这些文件和文件夹完全被排除在任何处理之外（包含搜索等）。该列表包括临时文件、与版本控制系统相关的服务文件等。笔者一般是加上下面几个忽略：
+
+```
+.flattened-pom.xml
+.fastRequest
+```
+
+​![image](assets/image-20240122134302-wqe9p50.png)​
+
+#### 新版 IDEA 没有 Local Changes
+
+​![image](assets/image-20240129104656-5l96he8.png)​
 
 ## 参考文章
 

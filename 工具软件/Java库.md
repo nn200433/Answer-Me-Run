@@ -41,3 +41,9 @@
 | bboss-elasticsearch | 功能丰富，涵盖Elasticsearch所有功能，自动索引托管，多种分页机制，傻瓜级CRUD，脚本，sql，jdbc，高亮，权重，聚合，IP，GEO地理位置，父子嵌套，应有尽有。（还有 ETL 模块） | [官网](https://esdoc.bbossgroups.com/#/) \| [GitHub](https://github.com/bbossgroups/mongodb-elasticsearch) |
 | EasyCaptcha | Java图形验证码，支持 gif、中文、算术等类型，可用于Java Web、JavaSE等项目。 | [GitHub](https://gitee.com/ele-admin/EasyCaptcha) |
 | langchain4j | LangChain for Java：利用 LLM 的强大功能增强您的 Java 程序 | [GitHub](https://github.com/langchain4j/langchain4j) |
+| j\_zlm\_sdk | 开源流媒体框架ZLMediaKit C API JAVA实现 |[GitHub](https://github.com/lidaofu-hub/j_zlm_sdk) |
+| gb28181-proxygb28181-proxy | 基于sip实现GB28181的通信框架，区分client和server。以便于快速构建发起SIP请求和处理响应。支持NAT穿透，支持海康、大华、宇视等品牌的IPC、NVR、DVR接入及联平台。项目不仅限于gb28181协议。也可以利用封装的SIP方法处理其他协议。 | [GitHub](https://github.com/lunasaw/gb28181-proxy) |
+| JaVers | 我们都对源代码使用版本控制系统，那么为什么不使用专门的框架来提供 Java 对象（实体、POJO、数据对象）的审计跟踪呢？使用 JaVers，您可以忘记麻烦的数据版本控制，让 JaVers 管理您的数据更改。(功能：Compare、Commit、Three views、Track changes 等） | [官网](https://javers.org/) \| [GitHub](https://github.com/javers/javers) |
+| tianai-captcha | 可能是java界最好的开源行为验证码 [滑块验证码、点选验证码、行为验证码、旋转验证码， 滑动验证码] | [GitHub](https://gitee.com/dromara/tianai-captcha) |
+| spring-startup-analyzerspring-startup-analyzer | 可生成交互式的 Spring 应用程序启动报告，让您了解哪些因素会导致应用程序启动时间延长，并帮助您优化启动时间。 | [GitHub](https://github.com/linyimin0812/spring-startup-analyzer) |
+| ANTLRANTLR | 是一款功能强大的解析生成器，用于读取、处理、执行或翻译结构化文本。场景：可以定义配置文件的语法规则，并生成解析器，使得可以轻松地解析和处理这些配置文件。 | [官网](https://www.antlr.org/) \| [GitHub](https://github.com/antlr/antlr4) |
