@@ -33,7 +33,7 @@
 |MetricsReloaded|分析代码复杂度的插件|
 |Momo Code Sec Inspector（Java）|Java 静态代码安全审计插件。具有一键修复功能的静态代码检查器。|
 |🔥 MyBatisCodeHelperPro（¥99/3 年）|Intellij 下 Mybatis 支持插件，功能强大（[详细介绍](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#/)）。不想付费那就用 [MyBatisX](https://plugins.jetbrains.com/plugin/10119-mybatisx)|
-|🔥 Rainbow Brackets（$15/年）|彩虹括号，高亮括号对。付费不存在的！|
+|🔥 Rainbow Brackets（¥280/永久）|彩虹括号，高亮括号对。注意，会检测 `ja-netfilter` 。付费都无法使用用！！！可以用免费版。|
 |🔥 HighlightBracketPair|该插件可以在 IntelliJ 的编辑器中对括号对进行颜色突出显示。|
 |🔥 Restful Fast Request（$10/年）|Restful Fast Request 是一个强大的 restful api 工具包插件（http 客户端），帮助您通过 exist 方法快速生成 url 和 params。<br />插件= API 调试工具 + API 管理器工具。<br />|
 |RestfulToolkitX|RestfulToolkitX 是运行在Intellij IDEA 之上的一个非常棒的 RESTful 开发工具包。（主要用来搜索接口）|
