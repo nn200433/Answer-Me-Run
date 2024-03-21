@@ -3,6 +3,7 @@
 |插件名|功能说明|
 | --------------------------------------| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |🔥 Show Comment|在结构树显示 文档注释；在行末尾显示 文档注释；支持 "xx 类全名或简名.json" 文档注释与跳转到字段；支持 从配置文件获取外部注释用于文件夹、资源、COBOL 等<br />|
+|🔥Draw Graph|生成 方法调用图 和 Maven 依赖图|
 |🔥 .ignore|Git 提交忽略一些文件|
 |Alibaba Cloud Toolkit|阿里云工具包是 Eclipse 或 IntelliJ IDEA 等 IDE 的插件。帮助开发人员更高效地开发、编码、测试、诊断和部署适合云操作的应用程序。|
 |arthas idea|基于 IntelliJ IDEA 开发的 Alibaba Arthas 命令生成插件，支持 [Alibaba Arthas](https://arthas.aliyun.com/doc/) 官方常用的命令。|
@@ -13,7 +14,7 @@
 |🔥 CamelCase|在 kebab-case、SNAKE_CASE、PascalCase、camelCase、snake_case 或 space case 之间轻松切换。（变量命名转换）|
 |CodeGlance|将类似于 Sublime 中的代码小地图嵌入到编辑器窗格中。|
 |🔥 CodeGlance Pro|在编辑器窗格中显示一个类似于 Sublime 中的放大概览或最小地图。小地图允许快速滚动，让你直接跳到代码的各个部分。对 CodeGlance 进行重做，支持更多的功能|
-|🔥 Commit-Message-Create|提交信息模板生成插件，用于规范代码提交信息|
+|🔥 CommitMessage|提交信息模板生成插件，用于规范代码提交信息|
 |🔥 JsonToAnyLanguage|日常开发中，我们经常要使用插件来实现 JSON 转业务实体，但是目前插件市场没有一款插件可以同时支持生成多种语言，导致需要下载很多个插件，很多强迫症患者是无法接受的。<br />基于这个背景，这个插件，统一把这些功能集成到一个插件中去。<br />该功能使用 [quicktype](https://quicktype.io/) 实现<br />|
 |🔥 Easy Javadoc|这个插件可以帮助你快速完成中文 javadoc 文档。支持三种类型的 javadoc：字段、方法和类。|
 |EasyCode|基于 IntelliJ IDEA 开发的代码生成插件，支持自定义任意模板（Java，html，js，xml）。<br />只要是与数据库相关的代码都可以通过自定义模板来生成。支持数据库类型与 java 类型映射关系配置。<br />支持同时生成生成多张表的代码。每张表有独立的配置信息。完全的个性化定义，规则由你设置。<br />|
@@ -22,7 +23,7 @@
 |GitToolBox|Git 工具箱。扩展 Git 功能：状态显示、自动获取、内联错误注释、提交对话框完成、隐藏通知...|
 |🔥 Grep Console|Grep、tail、filter、highlight... 控制台所需的一切。也可以高亮编辑器...|
 |🔥 Gyro|Gyro-让你的本地集成测试一直运行，就像 @SpringBootTest 启动的那样。第一次运行 Gyro Debug 时，需要启动 Spring 容器。当你再次运行 Gyro Debug 时，Gyro 将重用之前启动的 Spring 容器。<br />安装 Jrebel 热部署插件会自动使用 Jrebel 热部署能力（如果没有生效，可以通过 Preferences->Tools->Gyro Settings 配置 Jrebel 代理路径）；同样，您可以使用它来预热您的其他测试任务。<br />|
-|🔥 Keep Unit Test Running|以连续模式运行 JUnit 或 TestNG 测试 -> 如果修改测试，无需重新启动整个应用程序 -> 提高工作效率。与 Spring 和 Cucumber 配合使用效果特别好。|
+|Keep Unit Test Running|以连续模式运行 JUnit 或 TestNG 测试 -> 如果修改测试，无需重新启动整个应用程序 -> 提高工作效率。与 Spring 和 Cucumber 配合使用效果特别好。（SpringBoot 支持很差）|
 |JFormDesigner|先进的 Swing GUI 设计器，对 MigLayout、JGoodies FormLayout、GroupLayout (Free Design)、TableLayout 和 GridBagLayout 的出色支持，使其能够轻松创建专业外观的表单。|
 |🔥 JRebel and XRebel|JRebel 是一种生产力工具，允许开发人员立即重新加载代码更改。它跳过了 Java 开发中常见的重建、重新启动和重新部署周期。<br />XRebel 是一个用于 Java 开发的性能工具，它为开发人员提供实时性能洞察，帮助他们在开发阶段更快、更早地理解和解决潜在问题。<br />|
 |🔥 JRebel mybatisPlus extension|用于 IntelliJ 的 JRebel MybatisPlus 热重载扩展|
@@ -39,7 +40,7 @@
 |🔥 Apipost-Helper|Apipost 一个类似于 Postman 的 IntelliJ IDEA 插件，可以帮助开发人员高效地调试 Api 并一键生成文档；Apipost \= Restfultool + Yapidoc + Swaggertool；|
 |RequestTool|[RequestTool](https://licheng1013.github.io/plugins/request-tool.html) 一个 Http 请求工具，您可以根据请求结果构建自己的文档，支持文档导出。（与 Restful Fast Request 相比，个人觉得能达到近 2/3 吧）<br />|
 |Save Actions|支持可配置的、类似 Eclipse 的保存操作，包括“优化导入”、“重新格式化代码”、“重新排列代码”、“编译文件”以及一些针对 Java 的快速修复，<br />如“添加/删除 'this' 限定符”等。当文件在磁盘上同步（或保存）时执行配置的操作。<br />请注意，自 `IntelliJ 2021.2`​ 以来，有一个内置的 `Tools > Actions on Save`​ 设置菜单，允许您执行许多标准操作，例如重新格式化或优化导入。若您还想使用本插件可参考下方详细使用介绍。<br />|
-|🔥SmartInput|自动切换输入法。对于母语为中文的开发者，写代码过程中经常需要在中/英输入法之间进行切换，而且由于不清楚当前处于哪种输入状态，有时输入到一半发现输入法错了，删除后重新输入，严重影响了编码效率。<br />其实，在哪种情况需要使用哪种输入法是可以明确的，既然这样就可以让 IDE 帮助我们自动切换输入法。|
+|🔥Smart Input|自动切换输入法。对于母语为中文的开发者，写代码过程中经常需要在中/英输入法之间进行切换，而且由于不清楚当前处于哪种输入状态，有时输入到一半发现输入法错了，删除后重新输入，严重影响了编码效率。<br />其实，在哪种情况需要使用哪种输入法是可以明确的，既然这样就可以让 IDE 帮助我们自动切换输入法。|
 |Spring Boot Assistant|该插件为 Spring Boot 配置文件（application.yml 等）添加了自动完成支持。|
 |Statistic|显示项目统计信息。此插件显示按扩展名排序的文件以及大小、行数 LOC 等。用户可以使用“选择时刷新”按钮选择（项目/模块/包/文件）范围。|
 |String Manipulation|对字符串的大小写切换、排序、过滤、递增、与列对齐、grepping、转义、编码。|
@@ -50,7 +51,7 @@
 |GenerateSerialVersionUID|在生成菜单 (alt + ins) 中添加新操作“SerialVersionUID”。该操作在当前类中添加一个 serialVersionUID 字段或更新它（如果它已经存在），并为其分配标准“serialver”JDK 工具将返回的相同值。<br />IDEA 自带生成方式见 [【开发工具】IDEA 生成序列号 serialVersionUID 快捷键](https://blog.csdn.net/u011397981/article/details/119743032)|
 |JDK VisualGC（$9/年）|用于本地或远程运行 Hotspot JVM 的实时可视化垃圾收集监控工具，支持 G1 和 ZGC|
 
-### Save Actions（格式化代码插件）
+### ~~Save Actions（格式化代码插件）~~
 
 可以帮忙我们优化包导入，自动给没有修改的变量添加 final 修饰符，调用方法的时候自动添加 this 关键字等，使我们的代码更规范统一。
 
@@ -535,6 +536,10 @@
 </code_scheme>
 ```
 
+#### Tab 转 空格
+
+​![image](assets/image-20240314150229-f5ue803.png)​
+
 #### 双斜杠注释紧跟代码头
 
 ​​![image](assets/image-20230510115652-mbvai8u.png)​​
@@ -589,6 +594,29 @@ IntelliJ IDEA 还维护着一个文件和文件夹列表，这些文件和文件
 #### 新版 IDEA 没有 Local Changes
 
 ​![image](assets/image-20240129104656-5l96he8.png)​
+
+## 一些问题
+
+### 不想要 Services 窗口怎么操作？
+
+当你的项目是 SpringBoot 项目时，又不小心开启了 Services 。跑项目时都是在那逗比的 Services 框框里，又很烦，这时候该怎么操作关闭呢？
+
+1. 打开 Services 窗口，果断的选择 Spring Boot 分钟，然后干净利落的右键点击 Delete 按钮删除。这时，不出意外的话，Services 窗口已经消失了。
+
+    ​![image](assets/image-20240313160035-un4pqem.png)​
+2. 直接点击右上角的 Debug 运行项目，就又能开心的看到简单的 Run 窗口了。
+
+    ​![image](assets/image-20240313160058-loecfpu.png)​
+
+### Jrebel debug 无法启动
+
+在新版本的 IDEA 中 Jrebel debug 模式无法正常工作时，可尝试进行一下以下设置。
+
+​![image](assets/image-20240313143815-n2c2uys.png)​
+
+### Easy Yapi
+
+​![image](assets/image-20240313150203-0jdgaer.png)​
 
 ## 参考文章
 
