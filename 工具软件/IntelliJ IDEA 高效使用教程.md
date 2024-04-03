@@ -5,6 +5,7 @@
 |🔥 Show Comment|在结构树显示 文档注释；在行末尾显示 文档注释；支持 "xx 类全名或简名.json" 文档注释与跳转到字段；支持 从配置文件获取外部注释用于文件夹、资源、COBOL 等<br />|
 |🔥Draw Graph|生成 方法调用图 和 Maven 依赖图|
 |🔥 .ignore|Git 提交忽略一些文件|
+|AceJump|AceJump 允许您快速将插入符号导航到编辑器中可见的任何位置。只需按“ctrl+;”，输入一个字符，然后输入匹配的字符即可进行任意位置跳转。|
 |Alibaba Cloud Toolkit|阿里云工具包是 Eclipse 或 IntelliJ IDEA 等 IDE 的插件。帮助开发人员更高效地开发、编码、测试、诊断和部署适合云操作的应用程序。|
 |arthas idea|基于 IntelliJ IDEA 开发的 Alibaba Arthas 命令生成插件，支持 [Alibaba Arthas](https://arthas.aliyun.com/doc/) 官方常用的命令。|
 |Awesome Console|有了这个插件，控制台和终端中的所有文件和链接都会被高亮显示并可以点击。源代码文件将在 IDE 中打开，其他链接将用该类型的默认查看器/浏览器打开。|
