@@ -19,6 +19,7 @@
 |🔥 JsonToAnyLanguage（$15/年）|日常开发中，我们经常要使用插件来实现 JSON 转业务实体，但是目前插件市场没有一款插件可以同时支持生成多种语言，导致需要下载很多个插件，很多强迫症患者是无法接受的。<br />基于这个背景，这个插件，统一把这些功能集成到一个插件中去。<br />该功能使用 [quicktype](https://quicktype.io/) 实现<br />|
 |🔥 Easy Javadoc|这个插件可以帮助你快速完成中文 javadoc 文档。支持三种类型的 javadoc：字段、方法和类。|
 |EasyCode|基于 IntelliJ IDEA 开发的代码生成插件，支持自定义任意模板（Java，html，js，xml）。<br />只要是与数据库相关的代码都可以通过自定义模板来生成。支持数据库类型与 java 类型映射关系配置。<br />支持同时生成生成多张表的代码。每张表有独立的配置信息。完全的个性化定义，规则由你设置。<br />|
+|🔥 EasyCode-MybatisCodeHelper|基于IntelliJ IDEA开发的代码生成插件，支持自定义任意模板（Java，html，js，xml）。<br />支持Kotlin代码生成。<br />只要是与数据库相关的代码都可以通过自定义模板来生成。支持数据库类型与java类型映射关系配置。<br/>支持同时生成生成多张表的代码。每张表有独立的配置信息。完全的个性化定义，规则由你设置。<br/>插件fork于easy code插件，该版本用于兼容MybatisCodeHelper插件，方便MybatisCodeHelper插件做代码生成补全检测等<br/>支持从项目的easyCode目录里面的模版文件来生成代码 表上右键GenerateFromEasyCodeFolderFile即可<br/>写模版有代码提示,更好的报错提示,支持自定义多个group来生成代码。<br/>（<b>模板可以项目组共享，个人感觉比EasyCode好用</b>）|
 |EasyYapi|帮助你导出 api 到 yapi 、postman 、markdown（基于 javadoc & KDoc & ScalaDoc 解析 API 文档）<br />不使用 [YApi](https://hellosean1025.github.io/yapi/) 可不装，若使用 [YApi](https://hellosean1025.github.io/yapi/) 管理接口文档，推荐安装。|
 |element|支持 element 框架，在使用这个插件之前，你必须安装插件 vuejs|
 |GitToolBox|Git 工具箱。扩展 Git 功能：状态显示、自动获取、内联错误注释、提交对话框完成、隐藏通知...|
