@@ -597,6 +597,10 @@ IntelliJ IDEA 还维护着一个文件和文件夹列表，这些文件和文件
 
 ​![image](assets/image-20240129104656-5l96he8.png)​
 
+#### 取消 AI 自动补全
+
+![image](assets/image-20240627173715-vxk983n.png)​
+
 ## 一些问题
 
 ### 不想要 Services 窗口怎么操作？
