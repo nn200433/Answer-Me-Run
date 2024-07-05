@@ -44,3 +44,11 @@
 
     * [lemon-guide（GitHub）](https://github.com/yu120/lemon-guide)
     * [lemon-guide （第三方整理的 Docsify 版，这个版本分类更清晰）](https://gitee.com/wu-you3399/docs-lemon)
+
+13. [mini-spring](https://github.com/DerekYRC/mini-spring)
+
+   mini-spring 是简化版的 spring 框架，能帮助你快速熟悉 spring 源码和掌握 spring 的核心原理。抽取了 spring 的核心逻辑，代码极度简化，保留 spring 的核心功能，如 IoC 和 AOP、资源加载器、事件监听器、类型转换、容器扩展点、bean 生命周期和作用域、应用上下文等核心功能。
+
+14. [Spring-Reading](https://github.com/xuchengsheng/spring-reading)
+
+   探索Java最受欢迎的框架，理解它的内部机制，带大家从入门到精通。涵盖了 Spring 框架的核心概念和关键功能，包括控制反转（IOC）容器的使用，面向切面编程（AOP）的原理与实践，事务管理的方式与实现，Spring MVC 的流程与控制器工作机制，以及 Spring 中数据访问、安全、Boot 自动配置等方面的深入研究。此外，它还包含了 Spring 事件机制的应用、高级主题如缓存抽象和响应式编程，以及对 Spring 源码的编程风格与设计模式的深入探讨。
