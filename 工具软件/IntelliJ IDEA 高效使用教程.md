@@ -15,6 +15,7 @@
 |🔥 CamelCase|在 kebab-case、SNAKE_CASE、PascalCase、camelCase、snake_case 或 space case 之间轻松切换。（变量命名转换）|
 |CodeGlance|将类似于 Sublime 中的代码小地图嵌入到编辑器窗格中。|
 |🔥 CodeGlance Pro|在编辑器窗格中显示一个类似于 Sublime 中的放大概览或最小地图。小地图允许快速滚动，让你直接跳到代码的各个部分。对 CodeGlance 进行重做，支持更多的功能|
+|Code Review Helper|Intellij IDEA的一个 Code Review 代码检视、代码评审的插件。可以在本地的IDEA工具中进行添加检视意见、评审意见等，支持Excel导入导出，可视化界面，方便项目中代码走读。[开源地址](https://gitee.com/veezean/IntellijIDEA-CodeReview-Plugin)|
 |🔥 CommitMessage|提交信息模板生成插件，用于规范代码提交信息|
 |🔥 JsonToAnyLanguage（$15/年）|日常开发中，我们经常要使用插件来实现 JSON 转业务实体，但是目前插件市场没有一款插件可以同时支持生成多种语言，导致需要下载很多个插件，很多强迫症患者是无法接受的。<br />基于这个背景，这个插件，统一把这些功能集成到一个插件中去。<br />该功能使用 [quicktype](https://quicktype.io/) 实现<br />|
 |🔥 Easy Javadoc|这个插件可以帮助你快速完成中文 javadoc 文档。支持三种类型的 javadoc：字段、方法和类。|
