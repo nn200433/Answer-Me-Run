@@ -53,6 +53,7 @@
 |Private Notes|你还在为项目中不敢添加 "敏感注释"！源码是只读文件不能添加注释而烦恼吗？<br />用这款插件就好了，注释仅自己可见。数据都缓存当前用户目录下的 .privateNotes 文件夹中，如需同步，可以借助强大的 Git。|
 |GenerateSerialVersionUID|在生成菜单 (alt + ins) 中添加新操作“SerialVersionUID”。该操作在当前类中添加一个 serialVersionUID 字段或更新它（如果它已经存在），并为其分配标准“serialver”JDK 工具将返回的相同值。<br />IDEA 自带生成方式见 [【开发工具】IDEA 生成序列号 serialVersionUID 快捷键](https://blog.csdn.net/u011397981/article/details/119743032)|
 |JDK VisualGC（$9/年）|用于本地或远程运行 Hotspot JVM 的实时可视化垃圾收集监控工具，支持 G1 和 ZGC|
+|🔥 JarEditor|可直接编辑jar包内class/resource文件，无需解压、支持class字节码修改工具 : javassist、...。总结：用得好，皇粮吃到饱|
 |❌ JRebel mybatisPlus extension|用于 IntelliJ 的 JRebel MybatisPlus 热重载扩展|
 |❌ Save Actions|支持可配置的、类似 Eclipse 的保存操作，包括“优化导入”、“重新格式化代码”、“重新排列代码”、“编译文件”以及一些针对 Java 的快速修复，<br />如“添加/删除 'this' 限定符”等。当文件在磁盘上同步（或保存）时执行配置的操作。<br />请注意，自 `IntelliJ 2021.2`​ 以来，有一个内置的 `Tools > Actions on Save`​ 设置菜单，允许您执行许多标准操作，例如重新格式化或优化导入。若您还想使用本插件可参考下方详细使用介绍。<br />|
 
