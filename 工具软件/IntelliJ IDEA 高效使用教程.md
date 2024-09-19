@@ -1,7 +1,7 @@
 ## 插件整理
 
 |插件名|功能说明|
-| --------------------------------------| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --------------------------------------| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |🔥 Show Comment|在结构树显示 文档注释；在行末尾显示 文档注释；支持 "xx 类全名或简名.json" 文档注释与跳转到字段；支持 从配置文件获取外部注释用于文件夹、资源、COBOL 等<br />|
 |🔥Draw Graph|生成 方法调用图 和 Maven 依赖图|
 |🔥 .ignore|Git 提交忽略一些文件|
@@ -19,7 +19,7 @@
 |🔥 JsonToAnyLanguage（$15/年）|日常开发中，我们经常要使用插件来实现 JSON 转业务实体，但是目前插件市场没有一款插件可以同时支持生成多种语言，导致需要下载很多个插件，很多强迫症患者是无法接受的。<br />基于这个背景，这个插件，统一把这些功能集成到一个插件中去。<br />该功能使用 [quicktype](https://quicktype.io/) 实现<br />|
 |🔥 Easy Javadoc|这个插件可以帮助你快速完成中文 javadoc 文档。支持三种类型的 javadoc：字段、方法和类。|
 |EasyCode|基于 IntelliJ IDEA 开发的代码生成插件，支持自定义任意模板（Java，html，js，xml）。<br />只要是与数据库相关的代码都可以通过自定义模板来生成。支持数据库类型与 java 类型映射关系配置。<br />支持同时生成生成多张表的代码。每张表有独立的配置信息。完全的个性化定义，规则由你设置。<br />|
-|🔥 EasyCode-MybatisCodeHelper|基于IntelliJ IDEA开发的代码生成插件，支持自定义任意模板（Java，html，js，xml）。<br />支持Kotlin代码生成。<br />只要是与数据库相关的代码都可以通过自定义模板来生成。支持数据库类型与java类型映射关系配置。<br/>支持同时生成生成多张表的代码。每张表有独立的配置信息。完全的个性化定义，规则由你设置。<br/>插件fork于easy code插件，该版本用于兼容MybatisCodeHelper插件，方便MybatisCodeHelper插件做代码生成补全检测等<br/>支持从项目的easyCode目录里面的模版文件来生成代码 表上右键GenerateFromEasyCodeFolderFile即可<br/>写模版有代码提示,更好的报错提示,支持自定义多个group来生成代码。<br/>（<b>模板可以项目组共享，个人感觉比EasyCode好用</b>）|
+|🔥 EasyCode-MybatisCodeHelper|基于IntelliJ IDEA开发的代码生成插件，支持自定义任意模板（Java，html，js，xml）。<br />支持Kotlin代码生成。<br />只要是与数据库相关的代码都可以通过自定义模板来生成。支持数据库类型与java类型映射关系配置。<br />支持同时生成生成多张表的代码。每张表有独立的配置信息。完全的个性化定义，规则由你设置。<br />插件fork于easy code插件，该版本用于兼容MybatisCodeHelper插件，方便MybatisCodeHelper插件做代码生成补全检测等<br />支持从项目的easyCode目录里面的模版文件来生成代码 表上右键GenerateFromEasyCodeFolderFile即可<br />写模版有代码提示,更好的报错提示,支持自定义多个group来生成代码。<br />（**模板可以项目组共享，个人感觉比EasyCode好用**）|
 |EasyYapi|帮助你导出 api 到 yapi 、postman 、markdown（基于 javadoc & KDoc & ScalaDoc 解析 API 文档）<br />不使用 [YApi](https://hellosean1025.github.io/yapi/) 可不装，若使用 [YApi](https://hellosean1025.github.io/yapi/) 管理接口文档，推荐安装。|
 |element|支持 element 框架，在使用这个插件之前，你必须安装插件 vuejs|
 |GitToolBox|Git 工具箱。扩展 Git 功能：状态显示、自动获取、内联错误注释、提交对话框完成、隐藏通知...|
@@ -27,19 +27,20 @@
 |🔥 Gyro|Gyro-让你的本地集成测试一直运行，就像 @SpringBootTest 启动的那样。第一次运行 Gyro Debug 时，需要启动 Spring 容器。当你再次运行 Gyro Debug 时，Gyro 将重用之前启动的 Spring 容器。<br />安装 Jrebel 热部署插件会自动使用 Jrebel 热部署能力（如果没有生效，可以通过 Preferences->Tools->Gyro Settings 配置 Jrebel 代理路径）；同样，您可以使用它来预热您的其他测试任务。<br />|
 |Keep Unit Test Running|以连续模式运行 JUnit 或 TestNG 测试 -> 如果修改测试，无需重新启动整个应用程序 -> 提高工作效率。与 Spring 和 Cucumber 配合使用效果特别好。（SpringBoot 支持很差）|
 |JFormDesigner|先进的 Swing GUI 设计器，对 MigLayout、JGoodies FormLayout、GroupLayout (Free Design)、TableLayout 和 GridBagLayout 的出色支持，使其能够轻松创建专业外观的表单。|
+|🔥HotSwapHelper|jrebel 的免费替代，[HotSwapHelper](https://github.com/gejun123456/HotSwapHelper) 是一款基于HotSwapAgent 开发的 idea 插件,实现热部署功能，支持 spring、hibernate、mybatis 等框架|
 |🔥 JRebel and XRebel|JRebel 是一种生产力工具，允许开发人员立即重新加载代码更改。它跳过了 Java 开发中常见的重建、重新启动和重新部署周期。<br />XRebel 是一个用于 Java 开发的性能工具，它为开发人员提供实时性能洞察，帮助他们在开发阶段更快、更早地理解和解决潜在问题。<br />|
-|🔥 JRebel-Supplement-Extension|用于 IntelliJ 的 JRebel MybatisPlus 热重载扩展，支持MybatisPlus的tableInfoCache，MappedStatement的热重载。支持fastjson系列的热重载。|
+|🔥 JRebel-Supplement-Extension|用于 IntelliJ 的 JRebel MybatisPlus 热重载扩展（支持MybatisPlus的tableInfoCache，MappedStatement的热重载。）|
 |Jump to Line|Jump to Line 插件允许您在调试时访问任何代码行。将黄色箭头拖放到排水沟中的所需位置，它将在那里放置一个执行点。<br />与步进相比，该插件使您可以从该点开始运行程序，而无需执行前面的代码。<br />|
 |🔥 Maven Helper|使用 Maven 的必备插件。（分析和排除冲突依赖项的简单方法）|
-|🔥 maven-search|快速查找 maven 依赖，定制模糊查找算法。支持查找全网类。不依赖于国外网络，每周自动去 Maven 仓库同步索引到国内。<br />在线版：[https://mvn.coderead.cn/](https://mvn.coderead.cn/)<br />|
+|🔥 maven-search|快速查找 maven 依赖，定制模糊查找算法。支持查找全网类。不依赖于国外网络，<span data-type="text" style="color: var(--b3-font-color8);">每周</span>自动去 Maven 仓库同步索引到国内。<br />在线版：[https://mvn.coderead.cn/](https://mvn.coderead.cn/)<br />|
 |MetricsReloaded|分析代码复杂度的插件|
 |Momo Code Sec Inspector（Java）|Java 静态代码安全审计插件。具有一键修复功能的静态代码检查器。|
 |🔥 MyBatisCodeHelperPro（¥99/3 年）|Intellij 下 Mybatis 支持插件，功能强大（[详细介绍](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#/)）。不想付费那就用 [MyBatisX](https://plugins.jetbrains.com/plugin/10119-mybatisx)|
-|🔥 Rainbow Brackets（¥280/永久）|彩虹括号，高亮括号对。注意，会检测 `ja-netfilter` 。付费都无法使用用！！！可以用免费版。|
+|🔥 Rainbow Brackets（¥280/永久）|彩虹括号，高亮括号对。注意，会检测 `ja-netfilter`​ 。付费都无法使用用！！！可以用免费版。<br />|
 |🔥 HighlightBracketPair|该插件可以在 IntelliJ 的编辑器中对括号对进行颜色突出显示。|
 |🔥 AnyDoor|目标：执行 Spring 项目任意对象的任意方法。<br />1. 对于是 Spring 注册的 Bean，会通过上下文拿到对象（若有代理既是代理对象），执行当前方法；<br />2. 对于非 Spring 注册的 Bean，会通过反射创建对象，执行当前方法<br />|
 |🔥 Restful Fast Request（$19/年）|Restful Fast Request 是一个强大的 restful api 工具包插件（http 客户端），帮助您通过 exist 方法快速生成 url 和 params。<br />插件= API 调试工具 + API 管理器工具。<br />|
-|🔥 Cool Request|[Cool Request](https://vip.coolrequest.dev/) 新一代IDEA接口调试插件，让调用变得简单。支持：统计方法耗时、调用任意方法（无需发起http请求）、自定义函数、发起反射请求、Spring网关自动发现、小工具。 |
+|🔥 Cool Request|[Cool Request](https://vip.coolrequest.dev/) 新一代IDEA接口调试插件，让调用变得简单。支持：统计方法耗时、调用任意方法（无需发起http请求）、自定义函数、发起反射请求、Spring网关自动发现、小工具。|
 |RestfulToolkitX|RestfulToolkitX 是运行在Intellij IDEA 之上的一个非常棒的 RESTful 开发工具包。（主要用来搜索接口）|
 |Apipost-Helper|Apipost 一个类似于 Postman 的 IntelliJ IDEA 插件，可以帮助开发人员高效地调试 Api 并一键生成文档；Apipost \= Restfultool + Yapidoc + Swaggertool；|
 |RequestTool|[RequestTool](https://licheng1013.github.io/plugins/request-tool.html) 一个 Http 请求工具，您可以根据请求结果构建自己的文档，支持文档导出。（与 Restful Fast Request 相比，个人觉得能达到近 2/3 吧）<br />|
@@ -53,9 +54,9 @@
 |Private Notes|你还在为项目中不敢添加 "敏感注释"！源码是只读文件不能添加注释而烦恼吗？<br />用这款插件就好了，注释仅自己可见。数据都缓存当前用户目录下的 .privateNotes 文件夹中，如需同步，可以借助强大的 Git。|
 |GenerateSerialVersionUID|在生成菜单 (alt + ins) 中添加新操作“SerialVersionUID”。该操作在当前类中添加一个 serialVersionUID 字段或更新它（如果它已经存在），并为其分配标准“serialver”JDK 工具将返回的相同值。<br />IDEA 自带生成方式见 [【开发工具】IDEA 生成序列号 serialVersionUID 快捷键](https://blog.csdn.net/u011397981/article/details/119743032)|
 |JDK VisualGC（$9/年）|用于本地或远程运行 Hotspot JVM 的实时可视化垃圾收集监控工具，支持 G1 和 ZGC|
-|🔥 JarEditor|可直接编辑jar包内class/resource文件，无需解压、支持class字节码修改工具 : javassist、...。总结：用得好，皇粮吃到饱|
+|🔥 JarEditor|[JarEditor](https://github.com/Liubsyy/JarEditor) 可直接编辑jar包内class/resource文件，无需解压、支持class字节码修改工具 : javassist、...|
 |❌ JRebel mybatisPlus extension|用于 IntelliJ 的 JRebel MybatisPlus 热重载扩展|
-|❌ Save Actions|支持可配置的、类似 Eclipse 的保存操作，包括“优化导入”、“重新格式化代码”、“重新排列代码”、“编译文件”以及一些针对 Java 的快速修复，<br />如“添加/删除 'this' 限定符”等。当文件在磁盘上同步（或保存）时执行配置的操作。<br />请注意，自 `IntelliJ 2021.2`​ 以来，有一个内置的 `Tools > Actions on Save`​ 设置菜单，允许您执行许多标准操作，例如重新格式化或优化导入。若您还想使用本插件可参考下方详细使用介绍。<br />|
+|❌ Save Actions|支持可配置的、类似 Eclipse 的保存操作，包括“优化导入”、“重新格式化代码”、“重新排列代码”、“编译文件”以及一些针对 Java 的快速修复，<br />如“添加/删除 'this' 限定符”等。当文件在磁盘上同步（或保存）时执行配置的操作。<br />请注意，自 `IntelliJ 2021.2`​ 以来，有一个内置的 `Tools > Actions on Save`​ 设置菜单，允许您执行许多标准操作，例如重新格式化或优化导入。<span data-type="text" style="color: var(--b3-font-color8);">若您还想使用本插件可参考下方详细使用介绍</span>。<br />|
 
 ### ~~Save Actions（格式化代码插件）~~
 
@@ -603,9 +604,15 @@ IntelliJ IDEA 还维护着一个文件和文件夹列表，这些文件和文件
 
 #### 取消 AI 自动补全
 
-![image](assets/image-20240627173715-vxk983n.png)​
+​![image](assets/image-20240627173715-vxk983n.png)​
 
 ## 一些问题
+
+### 想要用回经典老 UI 怎么操作？
+
+IntelliJ IDEA 2024.2 发布之后强推新 UI ，只需要在插件商店下载 Classic UI 插件重新启动就可以使用之前的 UI 了。
+
+​![image](assets/image-20240922131646-6yd7x4w.png)​
 
 ### 不想要 Services 窗口怎么操作？
 
@@ -626,7 +633,7 @@ IntelliJ IDEA 还维护着一个文件和文件夹列表，这些文件和文件
 
 ### Easy Yapi
 
-​![image](assets/image-20240313150203-0jdgaer.png)​
+​![image](assets/image-20240321145639-265rlfz.png)​
 
 ## 参考文章
 
