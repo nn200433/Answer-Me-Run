@@ -27,7 +27,7 @@
 |🔥 Gyro|Gyro-让你的本地集成测试一直运行，就像 @SpringBootTest 启动的那样。第一次运行 Gyro Debug 时，需要启动 Spring 容器。当你再次运行 Gyro Debug 时，Gyro 将重用之前启动的 Spring 容器。<br />安装 Jrebel 热部署插件会自动使用 Jrebel 热部署能力（如果没有生效，可以通过 Preferences->Tools->Gyro Settings 配置 Jrebel 代理路径）；同样，您可以使用它来预热您的其他测试任务。<br />|
 |Keep Unit Test Running|以连续模式运行 JUnit 或 TestNG 测试 -> 如果修改测试，无需重新启动整个应用程序 -> 提高工作效率。与 Spring 和 Cucumber 配合使用效果特别好。（SpringBoot 支持很差）|
 |JFormDesigner|先进的 Swing GUI 设计器，对 MigLayout、JGoodies FormLayout、GroupLayout (Free Design)、TableLayout 和 GridBagLayout 的出色支持，使其能够轻松创建专业外观的表单。|
-|🔥HotSwapHelper|jrebel 的免费替代，[HotSwapHelper](https://github.com/gejun123456/HotSwapHelper) 是一款基于HotSwapAgent 开发的 idea 插件,实现热部署功能，支持 spring、hibernate、mybatis 等框架|
+|HotSwapHelper|jrebel 的免费替代，[HotSwapHelper](https://github.com/gejun123456/HotSwapHelper) 是一款基于HotSwapAgent 开发的 idea 插件,实现热部署功能，支持 spring、hibernate、mybatis 等框架。（注：<span data-type="text" style="color: var(--b3-font-color8);">笔者觉得 JRebel 还是好用</span>）|
 |🔥 JRebel and XRebel|JRebel 是一种生产力工具，允许开发人员立即重新加载代码更改。它跳过了 Java 开发中常见的重建、重新启动和重新部署周期。<br />XRebel 是一个用于 Java 开发的性能工具，它为开发人员提供实时性能洞察，帮助他们在开发阶段更快、更早地理解和解决潜在问题。<br />|
 |🔥 JRebel-Supplement-Extension|用于 IntelliJ 的 JRebel MybatisPlus 热重载扩展（支持MybatisPlus的tableInfoCache，MappedStatement的热重载。）|
 |Jump to Line|Jump to Line 插件允许您在调试时访问任何代码行。将黄色箭头拖放到排水沟中的所需位置，它将在那里放置一个执行点。<br />与步进相比，该插件使您可以从该点开始运行程序，而无需执行前面的代码。<br />|
@@ -606,13 +606,19 @@ IntelliJ IDEA 还维护着一个文件和文件夹列表，这些文件和文件
 
 ​![image](assets/image-20240627173715-vxk983n.png)​
 
+​![image](assets/image-20241010085356-9vx17bz.png)​
+
 ## 一些问题
 
 ### 想要用回经典老 UI 怎么操作？
 
-IntelliJ IDEA 2024.2 发布之后强推新 UI ，只需要在插件商店下载 Classic UI 插件重新启动就可以使用之前的 UI 了。
+IntelliJ IDEA 2024.2 **发布之前**，只需要在设置中禁用 new UI 即可。
 
-​![image](assets/image-20240922131646-6yd7x4w.png)​
+​![image](assets/image-20241010085137-l5sw0iz.png)​
+
+IntelliJ IDEA 2024.2 **发布之后强推新 UI** ，只需要在插件商店下载 `Classic UI`​ 插件重新启动就可以使用之前的 UI 了。
+
+​![image](assets/image-20241010084719-je7mi11.png)​
 
 ### 不想要 Services 窗口怎么操作？
 
