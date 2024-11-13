@@ -52,3 +52,7 @@
 14. [Spring-Reading](https://github.com/xuchengsheng/spring-reading)
 
    探索Java最受欢迎的框架，理解它的内部机制，带大家从入门到精通。涵盖了 Spring 框架的核心概念和关键功能，包括控制反转（IOC）容器的使用，面向切面编程（AOP）的原理与实践，事务管理的方式与实现，Spring MVC 的流程与控制器工作机制，以及 Spring 中数据访问、安全、Boot 自动配置等方面的深入研究。此外，它还包含了 Spring 事件机制的应用、高级主题如缓存抽象和响应式编程，以及对 Spring 源码的编程风格与设计模式的深入探讨。
+
+15. [HowToDoInJava](https://howtodoinjava.com/)
+
+   HowToDoInJava 提供有关 Java 和相关技术的教程和操作指南。它还分享了最佳实践、算法和解决方案以及常见的面试问题。
