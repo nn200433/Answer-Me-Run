@@ -74,3 +74,13 @@
 16. [HowToDoInJava](https://howtodoinjava.com/)
 
     HowToDoInJava 提供有关 Java 和相关技术的教程和操作指南。它还分享了最佳实践、算法和解决方案以及常见的面试问题。
+
+17. [程序员大彬](https://topjavaer.cn/)
+
+    优质的编程学习网站
+
+18. [冰河技术](https://binghe001.github.io/)
+
+    本站点是作者冰河多年从事互联网开发、架构的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容、底层原理、架构知识、渗透技术。
+
+20. 
